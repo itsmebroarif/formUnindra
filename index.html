@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Uts Nomor 1</title>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <table align="center">
+      <tr>
+        <th>
+          <img
+            src="https://sofianrx.wordpress.com/wp-content/uploads/2012/12/logo-unindra2.jpg?w=640"
+            alt="logo Unindra"
+            width="100px"
+          />
+        </th>
+        <th>
+          <h1 style="text-align: center">Formulir Pengajuan Pinjaman</h1>
+        </th>
+        <th>
+          <img
+            src="https://sofianrx.wordpress.com/wp-content/uploads/2012/12/logo-unindra2.jpg?w=640"
+            alt="logo Unindra"
+            width="100px"
+          />
+        </th>
+      </tr>
+    </table>
+
+    <form style="margin: 2%" method="post">
+      <label for="nama">Nama Lengkap</label> :
+      <input type="text" placeholder="Masukan Nama Lengkap" />
+      <br />
+      <br />
+      <label for="email">Email</label> :
+      <input type="email" placeholder="Masukan Alamat Email" />
+      <br />
+      <br />
+      <label for="number">Nomor KTP</label> :
+        <input type="number" placeholder="Masukan Kode NIK" />
+      <br />
+      <br />
+
+      <label for="gender">Jenis Pinjaman</label> :
+      <input type="radio" placeholder="Konsumtif" /> Konsumtif
+      <input type="radio" placeholder="Produktif" /> Produktif 
+      <br /><br />
+      <label for="home_address">Alamat</label>
+      <textarea name="home_address" id="alamat"></textarea>
+      <br />
+      <br />
+      <label for="majority">Jumlah pinjaman</label>
+      <select name="majority" id="totalPinjaman">
+        <option value="10 Juta">10 Juta</option>
+        <option value="15 Juta">15 Juta</option>
+        <option value="20 Juta">20 Juta</option>
+      </select>
+      <br />
+      <br />
+      <button
+        style="
+          background-color: #4caf50;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          border-radius: 5px;
+        "
+      >
+        Kirim
+      </button>
+    </form>
+  </body>
+</html>
